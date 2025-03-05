@@ -13,16 +13,16 @@ public class no2 {
         A a = new A();
         B b = new B();
         C c = new C();
-        A ref;  // Reference bertipe A
+        A ref;
 
         ref = b;
-        ref.callthis();  // Memanggil method dari class B
+        ref.callthis();
 
         ref = c;
-        ref.callthis();  // Memanggil method dari class C
+        ref.callthis();
 
         ref = a;
-        ref.callthis();  // Memanggil method dari class A
+        ref.callthis();
     }
 }
 class A {
